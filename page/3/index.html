@@ -1,959 +1,1702 @@
-<!DOCTYPE html>
-<html lang="zh">
-    <head><meta name="generator" content="Hexo 3.9.0">
-    <!-- 
-        © Material Theme
-        https://github.com/viosey/hexo-theme-material
-        Version: 1.3.0 -->
+<!doctype html>
 
-    <!-- Title -->
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
     
-    <title>
-        
-        致我亲爱的李小姐
-    </title>
-
-    <!-- Favicons -->
-    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
-    <link rel="icon" sizes="192x192" href="/img/favicon.png">
-    <link rel="apple-touch-icon" href="/img/favicon.png">
-
-    <!-- Meta & Info -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#0097A7">
-    <meta name="author" content="Yusuf Ma">
-    <meta name="description" content="null">
-    <meta name="keywords" content="null">
-
-    <!--iOS -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-title" content="Title">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="480">
-
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="致我亲爱的李小姐">
-
-    <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://thesiteforrui.github.io">
-    <meta property="og:type" content="blog">
-    <meta property="og:title" content="致我亲爱的李小姐">
-    <meta property="og:description" content="null">
     
+  
 
-    <!--[if lte IE 9]>
-        <link rel="stylesheet" href="/css/ie-blocker.css">
+  
 
-        
-            <script src="/js/ie-blocker.zhCN.js"></script>
-        
-    <![endif]-->
+  
 
-    <!-- Import CSS -->
-    <link rel="stylesheet" href="/css/material.min.css">
-    <link rel="stylesheet" href="/css/style.min.css">
-    <!-- Config CSS -->
+  
 
+  
 
-<!-- Other Styles -->
-<style>
-  body, html {
-    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
-  }
-
-  a {
-    color: #00838F;
-  }
-
-  .mdl-card__media,
-  #search-label,
-  #search-form-label:after,
-  #scheme-Paradox .hot_tags-count,
-  #scheme-Paradox .sidebar_archives-count,
-  #scheme-Paradox .sidebar-colored .sidebar-header,
-  #scheme-Paradox .sidebar-colored .sidebar-badge{
-    background-color: #0097A7 !important;
-  }
-
-  /* Sidebar User Drop Down Menu Text Color */
-  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
-  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
-    color: #0097A7 !important;
-  }
-
-  #post_entry-right-info,
-  .sidebar-colored .sidebar-nav li:hover > a,
-  .sidebar-colored .sidebar-nav li:hover > a i,
-  .sidebar-colored .sidebar-nav li > a:hover,
-  .sidebar-colored .sidebar-nav li > a:hover i,
-  .sidebar-colored .sidebar-nav li > a:focus i,
-  .sidebar-colored .sidebar-nav > .open > a,
-  .sidebar-colored .sidebar-nav > .open > a:hover,
-  .sidebar-colored .sidebar-nav > .open > a:focus,
-  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
-    color: #0097A7 !important;
-  }
-
-  .toTop {
-    background: #757575 !important;
-  }
-
-  .material-layout .material-post>.material-nav,
-  .material-layout .material-index>.material-nav,
-  .material-nav a {
-    color: #757575;
-  }
-
-  #scheme-Paradox .MD-burger-layer {
-    background-color: #757575;
-  }
-
-  #scheme-Paradox #post-toc-trigger-btn {
-    color: #757575;
-  }
-
-  .post-toc a:hover {
-    color: #00838F;
-    text-decoration: underline;
-  }
-</style>
-
-
-<!-- Theme Background Related-->
-
-    <style>
-      body{
-        background-color: #F5F5F5;
-      }
-
-      /* blog_info bottom background */
-      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
-        background-color: #fff;
-      }
-    </style>
-
-
-
-
-<!-- Fade Effect -->
-
-    <style>
-      .fade {
-        transition: all 800ms linear;
-        -webkit-transform: translate3d(0,0,0);
-        -moz-transform: translate3d(0,0,0);
-        -ms-transform: translate3d(0,0,0);
-        -o-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-        opacity: 1;
-      }
-
-      .fade.out{
-        opacity: 0;
-      }
-    </style>
-
-
-
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/queue.js"></script>
-
-    <!-- UC Browser Compatible -->
-    <script>
-        var agent = navigator.userAgent.toLowerCase();
-        if(agent.indexOf('ucbrowser')>0) {
-            document.write("<link rel=\"stylesheet\" href=\"/css/uc.css\">");
-            alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
-        }
-    </script>
-
+  
     
-
     
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
 
-    <!-- Bing Background -->
-    
 
-    <!-- Custom Head -->
-    
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0">
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="致我亲爱的李小姐">
+<meta property="og:url" content="http://thesiteforrui.github.io/page/3/index.html">
+<meta property="og:site_name" content="致我亲爱的李小姐">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="致我亲爱的李小姐">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://thesiteforrui.github.io/page/3/">
+
+
+
+
+
+  <title> 致我亲爱的李小姐 </title>
 </head>
 
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">致我亲爱的李小姐</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">一点点给李小姐的情书日记</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://thesiteforrui.github.io/2017/06/21/欢迎回家/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yusuf Ma">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="致我亲爱的李小姐">
+    </span>
 
     
-        <body id="scheme-Isolation" class="lazy">
-            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
                 
-                    <!-- Isolation Header -->
-                    <header class="header">
-    <div class="header-wrapper">
-        <!-- Header Copyright -->
-        <div class="header-copyright">
-            <div class="header-site">
-                ©&nbsp;
-                <script type="text/javascript">
-                    var fd = new Date();
-                    document.write(fd.getFullYear());
-                </script>
-                &nbsp;致我亲爱的李小姐
-            </div>
-            <!--
-            I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright.
-            It will not impact the appearance and can give developers a lot of support :)
-
-            很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
-            它不会影响美观并可以给开发者很大的支持。 :)
-            -->
-            <div>
-                Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a>
-                <br>
-                Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a>
-            </div>
-        </div>
-
-        <!-- Header Title -->
-        <span class="header-title header-item">
-            <a href="/" title="致我亲爱的李小姐">
-                致我亲爱的李小姐
-            </a>
-        </span>
-
-        <p class="header-slogan header-item">
-            离你太远 却总想和你生活很近
-        </p>
-
-        <!-- Header Nav -->
-        <nav class="header-nav header-item">
-            <span class="header-nav-item">
-                <a href="/" title="Home">
-                    <span>主页</span>
+                <a class="post-title-link" href="/2017/06/21/欢迎回家/" itemprop="url">
+                  欢迎回家
                 </a>
-            </span>
+              
+            
+          </h1>
+        
 
-          <!-- Independent Pages -->
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-21T21:49:09+00:00">
+                2017-06-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>明天我亲爱的李小姐就要回来了呢，想想还有点小激动呢～</p>
+<p>四年大学生涯就结束了噶，也是好快。</p>
+<p>不知道明天你拉着箱子从寝室门走出去的时候，坐着车离开的时候，登上飞机的时候会是一个什么心情。</p>
+<p>李小姐是很感性的李小姐，也是因为如此你是那么害怕别离。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">不要正式的别离</span><br></pre></td></tr></table></figure>
+<p>最初我们分别的时候，你甚至都不愿来一个拥抱（虽然现在好像也不大想，哈哈哈，但好歹不拒绝了～），转头就走。其实最早我心里挺不是滋味的，觉得有一点冷冷的。但是后面理解了，也就没什么了。</p>
+<p>李小姐是暖暖的李小姐，你只是怕受伤而已。</p>
+<p>以后不用怕了，我们会一直在一起了，想想就会觉得很开心，开心的合不拢嘴，哈哈哈。</p>
+<p>虽然吧，就我个人而言，我还是会好好地分别的，虽然会受伤，但也会刻骨铭心，让自己知道对方对自己有多重要。</p>
+<p>明天居然要去你家吃饭了，卧槽超级紧张和激动有没有！！！明天真得沐浴更衣之后再来……</p>
+<p>就这样吧，明天见！</p>
+<p>爱你的Yusuf</p>
+<p>2017年6月21日</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://thesiteforrui.github.io/2017/06/06/今天没有什么新闻/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yusuf Ma">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="致我亲爱的李小姐">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/06/06/今天没有什么新闻/" itemprop="url">
+                  今天没有什么新闻
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-06T22:15:09+00:00">
+                2017-06-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天也没有什么照片。</p>
+<p>想认真写点什么给你，怕美丽的激情很快就被时间冲淡，而永远没有机会为此时此刻生命的欣喜留下鲜明印记。我不必叙述同行时的很多心绪，快乐只是很单纯的令我想拥你入怀。</p>
+<p>哪怕这种欢乐都不一定能延续到下一秒，哪怕成熟的看，我们能走多久很难说，将来如何也难讲，而且我们适不适合走下去更是个有待证明的课题，但我不会恐惧争执将我们打散。</p>
+<p>我的偏执与傲慢，希望你谅解，至少跟你说出的每一句话都是我生命中一次不可能重演的经历，除了与你同行，我不会再得到比这个更大的乐趣了！一年后，十年后，那又如何？我曾经把一年半的爱情牢牢握在手中，曾经笑的那么开怀，曾经活的那么与世无争，曾经跟另一个灵魂如此契近。22岁的我，除了感激，还有对你的浓浓爱意。</p>
+<p>今天有我。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://thesiteforrui.github.io/2017/05/26/Paris-总结/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yusuf Ma">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="致我亲爱的李小姐">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/05/26/Paris-总结/" itemprop="url">
+                  Paris_总结
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-26T03:52:50+00:00">
+                2017-05-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天的封面是李小姐美美的毕业照，说好听了叫艳压群芳，说白了就是把你们班其他妹子按在地上摩擦。</p>
+<p>今天是巴黎最后一晚了，还是需要进行一些归纳总结，具体内容将在下文详述。</p>
+<h1 id="ICC-2017"><a href="#ICC-2017" class="headerlink" title="ICC 2017"></a>ICC 2017</h1><p>毕竟我是来开会的，所以还是把正经事放在第一个写。下面给李小姐对我这几天的工作进行一点总结汇报。</p>
+<h2 id="参会日期"><a href="#参会日期" class="headerlink" title="参会日期"></a>参会日期</h2><p>参会日期名面上说的是21-25日，其实我只去了21日晚上的酒会，22号早上的演讲和24号的汇报……其余时间，我玩的还是很爽的，哈哈哈</p>
+<h2 id="演讲情况"><a href="#演讲情况" class="headerlink" title="演讲情况"></a>演讲情况</h2><p>总的来说表现不错，被session chair问了一个问题，然后随便水水就过去了。会议上碰到了一个新国大的学长，散会之后马上过去跟他套了个近乎，问了好多关于学院里的导师的问题，哪个导师为人好啊，哪个导师有钱啊等等。了解到貌似之前我联系了的那个教授其实相当不赖，为人不错，然后爆炸有钱，感觉就是想跟着他做了。</p>
+<h2 id="交友情况"><a href="#交友情况" class="headerlink" title="交友情况"></a>交友情况</h2><p>这次来开会，深刻体会到其实这个会议就是一个大型社交活动。大家疯狂搭讪，疯狂要联系方式，以科研开头最终一步一步走向更深层次的问题交流。第一次看到真正的学术圈的交往方式，也终于懂了为什么学校里有些教授，明明目前科研水平有限(虽然以前还是可以的)，但是始终都能产出顶级会议的论文，同时就像一个出国中介一样，随随便便就能把自己实验室里的学生推到世界名校里读phd。social真的相当重要也相当可怕；开会的最大价值其实不是了解别人的研究进展(当然，这也是很重要的一个部分)，原来是结实更多的人。</p>
+<h1 id="真正的正事"><a href="#真正的正事" class="headerlink" title="真正的正事"></a>真正的正事</h1><p>好了，上面的都是假正事，说完之后可以开始说真正的正事了。</p>
+<p>这两天总的来说还是玩的不错的。巴黎的确是一个很有历史文化底蕴的城市，每一条街道够我拍好久，古风建筑被很好地保存了下来，人们所做的多半只是不断地修缮和加固，并且依旧继续着这种雅致的生活。这里的建筑很多呈三角形，就像光华街那里那栋楼一样，因此常常出现有八个岔路口的路口，导致我迷路多次；巴黎街头随处可见艺术家，唱歌跳舞画画；这里的人生活很悠闲，下午的咖啡厅总是人满为患；因为天黑的晚，正式的晚餐往往入夜才开始(差不多10点了，这生活习惯太糟糕，对身体不好)，在此之前小酒吧街面上总是闲谈的人。总而言之，十分喜欢这座城市。</p>
+<p>不喜欢的有两点：吃的太操蛋，不会说英语的人不少。这吃的，我真是不想吐槽。有两天没吃午饭；绝望的黎巴嫩菜，甚至让我变得就算是咖喱，都觉得好吃了……最好吃的就是麦当劳，以及沙特土豪请我吃的那顿摩洛哥菜……</p>
+<p>就因为这两点，这城市在不下去，也可想而知美帝和加拿大对我来说是怎样的一种感觉。十分庆幸自己选择了新加坡，如果去了其他城市，我真的得绝望了……新加坡多好，啥都可以吃，最重要的是，能和你每天一起睡去，每天一起醒来，还能吃你做的菜，也能做菜给你吃，一旦想到这儿，就总是超级幸福。我这是第一次进sephora，第一次自己去主动地买香水，每当别人问起，我回答是给我女朋友买的时候，那感觉真的超级好。遗憾就是没能和你一起来。虽然自己一个人玩也挺快乐的，但真的好想和你去爱强，去圣心堂，去圣母院，去卢浮宫；想和你在巴黎的街头街拍，拍好多你的照片，也让你帮我拍一点，别人帮我拍的有点烂，实在不喜欢。</p>
+<p>我们之后一定要一起再来欧洲逛逛，这个地方太美了，我这一次就被它折服了。下一次要和你一起来，就这样定了～</p>
+<h1 id="关于你的大拇指"><a href="#关于你的大拇指" class="headerlink" title="关于你的大拇指"></a>关于你的大拇指</h1><p>你呀你，唉，心疼！！！</p>
+<p>你说你这个下楼梯咋摔了……你这一说好像也有道理，从统计的角度来看，你自从和我在一起了之后，摔跤忘事丢东西，一件没落下……概率相比从前大幅度提升……非得说近墨者黑，我好像还真逃不了干系……</p>
+<p>真的心疼，你说你大拇指的伤口化脓了，尤其是你说我昨天在作报告，所以没想着告诉我。傻姑娘啊，对我来说，没有比你更大的事了。我是真的担心你了，你这本来就怕疼，还要自己忍着，别这样。以后不要瞒着我吧，我会担心的(虽然咱俩在一起了，貌似也没啥机会瞒着)。</p>
+<p>还有，你这么不喜欢去医院其实不好。的确是，药要少吃，多喝水才是硬道理。问题是，总不能啥都不管嘛，有病要医，过度相信人体自动回复的机能有时候会导致病情恶化的。</p>
+<p>以后我会照顾好你的，做好觉悟吧。</p>
+<p>就这样吧，写了好多。时差夺走了的我们的6个小时，过了明天它就还回来了。</p>
+<p>想你了，过段时间见。</p>
+<p>爱你的Yusuf</p>
+<p>2017年5月26日(中国时间)</p>
+<p>p.s. 附上一点那天在埃菲尔铁塔拍的照片，个人觉得不赖，我自己的那张拍的也有点好。</p>
+<p><img src="/2017/05/26/Paris-总结/images/1.JPG" alt="@1"><br><img src="/2017/05/26/Paris-总结/images/2.JPG" alt="@2"><br><img src="/2017/05/26/Paris-总结/images/3.JPG" alt="@3"><br><img src="/2017/05/26/Paris-总结/images/4.JPG" alt="@4"></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://thesiteforrui.github.io/2017/05/20/Paris/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yusuf Ma">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="致我亲爱的李小姐">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/05/20/Paris/" itemprop="url">
+                  Paris
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-20T04:24:03+00:00">
+                2017-05-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天的封面是李小姐美美的毕业照～</p>
+<p>飞了12个小时终于降落，第一次踏足欧洲，我还是有点小激动的。计划了那么久的巴黎，我终于来了。</p>
+<p>我这里依然还是519，你那里已经是520了。惭愧前两天把这事忘了，对不住李小姐。</p>
+<p>其实这次还是挺遗憾的，没能和你一起来。也是没办法，毕竟时间不凑巧，刚好和你毕设答辩撞上了。这次真的是Wish you were here。</p>
+<p>巴黎真的好漂亮，感觉每一条街道都够拍好久好久，我明天都不想坐地铁了，准备走着路出去逛，哈哈。好喜欢拍照，谢谢你把我带入这个坑～</p>
+<p>租房定下来和学姐他们一起住其实挺不错的，感觉马上我们的房子也可以搞定了，开心！虽然基本全程靠李小姐carry，真是贼给力。</p>
+<p>写不动了，头都是晕的……这几天继续跟进！</p>
+<p>最后，还是要说，520啦，我爱你哟～</p>
+<p>爱你的Yusuf</p>
+<p>2017年5月20日</p>
+<p>末尾放点图记录一下<br><img src="/2017/05/20/Paris/images/1.jpg" alt="@图1"><br><img src="/2017/05/20/Paris/images/2.jpg" alt="@图2"><br><img src="/2017/05/20/Paris/images/3.jpg" alt="@图3"><br><img src="/2017/05/20/Paris/images/4.jpg" alt="@图4"><br><img src="/2017/05/20/Paris/images/5.jpg" alt="@图5"><br><img src="/2017/05/20/Paris/images/6.jpg" alt="@图6"><br><img src="/2017/05/20/Paris/images/7.jpg" alt="@图7"></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://thesiteforrui.github.io/2017/04/27/Singapore/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yusuf Ma">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="致我亲爱的李小姐">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/27/Singapore/" itemprop="url">
+                  Singapore
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-27T21:33:12+00:00">
+                2017-04-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>此刻的心情我想不需过多言语</p>
+<p>我想我们都明白</p>
+<p>只想在这里记录一下这个激动人心的时刻</p>
+<p>期待大理</p>
+<p>期待通海</p>
+<p>期待Singapore</p>
+<p>期待和你一起的生活</p>
+<p>爱你的Yusuf</p>
+<p>2017年4月27日</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://thesiteforrui.github.io/2017/04/25/我就在这里，不离不弃/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yusuf Ma">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="致我亲爱的李小姐">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/25/我就在这里，不离不弃/" itemprop="url">
+                  我就在这里，不离不弃
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-25T22:52:43+00:00">
+                2017-04-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>心疼你，被这个申请折磨的死去活来。</p>
+<p>对于忘了签字这个事情，也是没办法，自己的失误。不过好在对方的态度是极好的，而且确实是给予了我们极大的帮助，虽然这个时间节点才跟你说没有签字是很奇怪……</p>
+<p>其他的拿到了offer的人，目前有一个大陆的，其他两个人，只看经历的话，确实是很有竞争力的，我们不得不服。但是这种事情嘛，就像我们这些人一样，拿到了不少offer，然后拖着拖着最后还是一个一个地拒了，那么这些offer又会被剩下的人接受。所以说，最后的结果还不确定的，只要拒信没来，都可以充满希望地等待。不怕，我们再等等。</p>
+<p>我啊，很怕你和我说什么对不起我啊之类的话，特别是今晚这句：</p>
+<blockquote>
+<p>你不要对我那么好<br>我已经负担不起了</p>
+</blockquote>
+<p>我其实有一点点难过。</p>
+<p>我对你的好，从来没希望你要回馈给我什么，只是因为我想对你好罢了。从没想过要给你压力，从没想过要要求你什么，只希望你是我的就好。就是这么简单的想法。</p>
+<p>不管你已经听了多少次了，我都要说：不论发生什么，我就在这里，不离不弃。</p>
+<p>这首歌真的极其准确地表达了我想和你说的话：<a href="http://music.163.com/#/song?id=399341475" target="_blank" rel="noopener">wherever you are</a>(可以点进去的噶，网易云音乐链接)。</p>
+<p>所以啊，不要担心，办法总是有的，我们一起面对，一起解决。</p>
+<p>我爱你</p>
+<p>Yusuf</p>
+<p>2017年4月25日</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://thesiteforrui.github.io/2017/04/19/后记/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yusuf Ma">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="致我亲爱的李小姐">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/19/后记/" itemprop="url">
+                  后记
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-19T06:38:03+00:00">
+                2017-04-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>后记于4月19日早晨：</p>
+<p>感谢低素质的上海大妈们给了我一个于今早再一次尝试的机会，Github(就是我需要把这个网站挂上去的服务器)最终肯定是脑抽了，从昨天下午开始就没法往服务器上传东西，不论如何努力，试过各种办法，就是没法把网站的内容传上去，唉。好可惜，感觉自己最后没能用一个最惊喜的方式看到这个礼物，只能用我的电脑开着本地服务器给你看，都不算一个真正的网站，毕竟这些内容还都在我电脑里……真是蛋疼……希望你不要介意。</p>
+<p>其实转念想了想，这个网站写的内容其实真可谓又乱又杂，而且，全是闲话没有任何文采，自己读着都还挺蛋疼的……哈哈哈。不知道你读起来会是一种什么心情；会开心吗？收到这样的礼物会感觉惊喜呢，还是觉得物质性较弱而很普通呢？不知道了，毕竟这份礼物太unique了。但是吧，内心还是期许着你能喜欢的，哈哈哈。怎么样？收到一个网站做礼物的感觉？收到这么多封小情书做礼物的感觉？</p>
+<p>在昨晚我短暂的睡眠时间里，梦到了在普吉时骑摩托的那天：盘山的公路，穿梭的车，两侧绿油油的树，抬头便是蓝蓝的天，眼睛往后视镜一瞄就是抱着我的你。那一天真的好开心，好幸福，每一次想到，都忍不住想笑笑。</p>
+<p>或许人生真就是那么简单，遇见你之后再无所谓的”宏图大志”，哈哈哈。其实也不是没志向啦，只是说，在我之前的人生中一直都是向着”卓越”、”优秀”等世人所以为的理所应当在前进，虽然我也不知道这是否究竟是不是自己想要的，”学好”，”做好”，更多只是岁月和经历教给我的一种习惯罢了。然而当和你在一起了之后，渐渐地我开始感受到自己内心的强烈的渴望。我啊，只要这种生活能够继续就行了，其他的似乎都不是那么重要了。想要的都是你。</p>
+<p>想到还有三个小时，我就能见到你了，稍微有点小激动了呢哈哈哈！</p>
+<p>就这样吧～待会儿见</p>
+<p>爱你的Yusuf</p>
+<p>2017年4月19日</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://thesiteforrui.github.io/2017/04/18/第二十四天：生日快乐/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yusuf Ma">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="致我亲爱的李小姐">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/18/第二十四天：生日快乐/" itemprop="url">
+                  第二十四天：生日快乐
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-18T18:31:29+00:00">
+                2017-04-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>终于拿出这张可以压箱底的照片了哈哈哈。你当时发给我的时候找我要红包，我还说要打听清楚具体的内容是啥，现在看来，两个红包换了这个照片还是相当值得的，哈哈哈！太可爱啦。</p>
+<p>首先，热烈祝贺李小姐生日快乐！！！</p>
+<p>虽然今天不是你的生日，但是作为你生日时候看到的最后一篇本博客的文章，我当然还是要在这里祝你生日快乐的～</p>
+<p>光阴似箭日月如梭，照片里的小姑娘如今已经是一个美丽成熟的女性啦！跟你一起长大的我，也即将要有可以陪在你身边的机会了。</p>
+<p>回看这段时间写的这些东西，好多都是流水账啊，而且关于这个生日礼物的问题，现在想想，好后悔没有给你买腮红，而且那个自动淘宝抢单的脚本最终也没有完成，感觉自己好坑…那个草莓花束么，最后还是决定不买了，送过来多半都坏了…所以呢，最后的礼物，就决定是这两件套啦，附加一个我，希望你能喜欢。同时，超级看不起现在自己的文采，再难提笔写出以前那些文字了，不懂自己是老了还是成熟了亦或是世俗了。今天呢，这里就不多说了，更多的话，还是想写在纸上亲手交给你吧。</p>
+<p>就这样吧，好想见你。明天见。</p>
+<p>爱你的Yusuf</p>
+<p>2017年4月18日</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://thesiteforrui.github.io/2017/04/17/第二十三天：冲刺/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yusuf Ma">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="致我亲爱的李小姐">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/17/第二十三天：冲刺/" itemprop="url">
+                  第二十三天：冲刺
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-17T23:19:27+00:00">
+                2017-04-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天冲刺了一大波，因为要来找你了。感觉干了好多事情啊！首先来罗列一下今天干了一些啥事情：</p>
+<ol>
+<li>跑了三趟学院和行政楼，审批过了三层，极佳</li>
+<li>码实验代码……这个就很蛋疼了，首先，仅仅是训练模型的话，五个参数中的三个的代码已经写完了。然而剩下的两个感觉很蛋疼，这个就完全是数据本身不够好的原因了，也是无奈，实在不行就少弄一个参数吧，正合我意哈哈哈。</li>
+</ol>
+<p>然后列一下明天的计划：</p>
+<p>明天这个火车时间有点晚，10点40，是一个比较麻烦的事情……所以我决定下午去买人道，然后直接回学校收东西。晚上差不多到9点么出门，就背一个包来啦。然后还有个麻烦的事情就是，那一大坨礼物……那个永生花的盒盒，只能提着来了……不管了，到时候两个东西都得放在床边，就这样定了。</p>
+<p>哈哈，好期待啊，要来啦！！！</p>
+<p>想你啦</p>
+<p>还有噶，不要担心我爹妈不高兴啦，他俩高兴得很，我妈还让我别带电脑去，好好陪你呢。所以啦，等我来。</p>
+<p>爱你的Yusuf</p>
+<p>2017年4月17日</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://thesiteforrui.github.io/2017/04/16/第二十二天：见李小姐前综合征/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yusuf Ma">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="致我亲爱的李小姐">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/04/16/第二十二天：见李小姐前综合征/" itemprop="url">
+                  第二十二天：见李小姐前综合征
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-16T23:41:57+00:00">
+                2017-04-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天选这张封面真的是好方便：1. 把相册用力往下一滑，第一眼就看到了这张，于是乎，就是它了！2. 这种你发给我的照片特别方便，都不用再调一遍色，直接加个框框就好，赞。</p>
+<p>正文开始。</p>
+<p>今天真是感觉“见李小姐前综合征”又犯了。</p>
+<p>随意总结一下，所谓“见李小姐前综合征”就是每次见你之前，都会谜一般地特别忙，总有很多事情要做。其实也不能说是“谜一般”啦，因为为了见你嘛，总要把之后的事情都尽量先做做，才有时间和你玩～</p>
+<p>在几天之前，我还以为这次可以打破这个定律了，毕竟现在就是一条咸鱼，没啥好干的，就混混毕设，做做ppt就好。可惜没能料到这坑爹的申请流程和这代码的复杂程度超出了预期，最近看似松散，但其实还是一直在干事情的。</p>
+<p>现在看来的话，申请流程问题应该不算太大，只要明早把材料补了，当场让他帮我批了，就和今天批的区别不大；同时这次必须再问问学院这边是否还有啥特殊要求了，不然到时候不在上海又被退回，那才真是麻烦了……</p>
+<p>代码还是挺复杂的，真正实现一个算法比起设计一个理论模型来真的一点也不轻松，这也是我第二次有这样的感受了……感觉现在学术圈有一个很严重的问题，就是过度忽视了工程的重要性，很多教授都认为，理论模型才是最重要的，至于实验嘛，就是一个工程问题，不必太care。这也导致很多计算机系的博士生其实代码能力很有问题……啊，感觉跑题了……就此打住。</p>
+<p>其实每次出现“见李小姐前综合征”的时候，都会变得好想你。这个人呐，好奇怪，总感觉想你的程度是一个凸函数(你就按照开口向上的二次函数来理解吧)，才分开的时候会好想你，中间程度又会变轻一些，然后快要到见你的时候了，就会极其想你……哎呀，太矫情了。</p>
+<p>就这样吧，等不住了，好想马上就来。</p>
+<p>爱你的Yusuf</p>
+<p>2017年4月16日</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="Yusuf Ma">
+          <p class="site-author-name" itemprop="name">Yusuf Ma</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">51</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">tags</span>
+              
+            </div>
+          
+
         </nav>
 
-        <!-- Header SNS -->
-        <div class="header-item header-sns_list">
-    <!-- Twitter -->
-    
-        <a href="https://twitter.com/twitter" target="_blank">
-            <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
-        </a>
-    
+        
 
-    <!-- Facebook -->
-    
-        <a href="https://www.facebook.com/facebook" target="_blank">
-            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
-        </a>
-    
+        <div class="links-of-author motion-element">
+          
+        </div>
 
-    <!-- Google + -->
-    
-        <a href="https://www.google.com/" target="_blank">
-            <i class="fa fa-google-plus fa-lg" aria-hidden="true"></i>
-        </a>
-    
+        
+        
 
-    <!-- Weibo -->
-    
+        
+        
 
-    <!-- Instagram -->
-    
+        
 
-    <!-- Tumblr -->
-    
 
-    <!-- Github -->
-    
+      </section>
 
-    <!-- LinkedIn -->
-    
+      
 
-    <!-- Telegram -->
-    
-</div>
+      
 
     </div>
-</header>
+  </aside>
 
-                
-
-                <!-- Main Container -->
-                <main class="material-layout__content" id="main">
-
-                    <!-- Top Anchor -->
-                    <div id="top"></div>
-
-                    
-
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
-
-    <!-- Pin on top -->
-    
-
-    <!-- Normal Post -->
-    
-        
-        
-        
-            <!-- Isolation Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post_entry Header -->
-    
-        <!-- Post Header Info -->
-        <div class="post_entry-header_info without-thumbnail">
-            <!-- Author Avatar & Name -->
-            <img src="/img/avatar.jpg" class="avatar-img" width="44px" height="44px" alt="Yusuf Ma's avatar">
-            <span class="name-span">Yusuf Ma</span>
-        </div>
-
-        <!-- Null Thumbnail -->
-        <div class="post_thumbnail-null">
-    
-        </div>
-
-    <!-- Post_entry Content -->
-    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-        <!-- Post Title -->
-        <p class="post_entry-title">
-            <a href="/2017/06/21/欢迎回家/">欢迎回家</a>
-        </p>
-
-        <!-- Post Excerpt -->
-        <p class="post_entry-excerpt">
-            
-                明天我亲爱的李小姐就要回来了呢，想想还有点小激动呢～
-四年大学生涯就结束了噶，也是好快。
-不知道明天你拉着箱子从寝室门走...
-            
-            &nbsp;&nbsp;&nbsp;
-            <span>
-                <a href="/2017/06/21/欢迎回家/" target="_self">继续阅读</a>
-            </span>
-        </p>
-
-        <!-- Post Tags -->
-        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/tags/给李小姐/">给李小姐</a></li></ul>
-    </div>
-
-    <!-- Post_entry Footer -->
-    <div class="post_entry-footer">
-        <div class="post_entry-footer-border"></div>
-        <div class="post_entry-footer-info">
-            <div class="post_entry-footer-date">
-                6月 21, 2017
-            </div>
-            <div class="post_entry-footer-comment">
-                
-            </div>
-        </div>
-    </div>
-</div>
 
         
-        
-    
-        
-        
-        
-            <!-- Isolation Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post_entry Header -->
-    
-        <!-- Post Header Info -->
-        <div class="post_entry-header_info without-thumbnail">
-            <!-- Author Avatar & Name -->
-            <img src="/img/avatar.jpg" class="avatar-img" width="44px" height="44px" alt="Yusuf Ma's avatar">
-            <span class="name-span">Yusuf Ma</span>
-        </div>
+      </div>
+    </main>
 
-        <!-- Null Thumbnail -->
-        <div class="post_thumbnail-null">
-    
-        </div>
-
-    <!-- Post_entry Content -->
-    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-        <!-- Post Title -->
-        <p class="post_entry-title">
-            <a href="/2017/06/06/今天没有什么新闻/">今天没有什么新闻</a>
-        </p>
-
-        <!-- Post Excerpt -->
-        <p class="post_entry-excerpt">
-            
-                今天也没有什么照片。
-想认真写点什么给你，怕美丽的激情很快就被时间冲淡，而永远没有机会为此时此刻生命的欣喜留下鲜明印记。我不必叙述同行...
-            
-            &nbsp;&nbsp;&nbsp;
-            <span>
-                <a href="/2017/06/06/今天没有什么新闻/" target="_self">继续阅读</a>
-            </span>
-        </p>
-
-        <!-- Post Tags -->
-        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/tags/今天没有什么标签/">今天没有什么标签</a></li></ul>
-    </div>
-
-    <!-- Post_entry Footer -->
-    <div class="post_entry-footer">
-        <div class="post_entry-footer-border"></div>
-        <div class="post_entry-footer-info">
-            <div class="post_entry-footer-date">
-                6月 06, 2017
-            </div>
-            <div class="post_entry-footer-comment">
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-        
-        
-    
-        
-        
-        
-            <!-- Isolation Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post_entry Header -->
-    
-        <!-- Post Header Info -->
-        <div class="post_entry-header_info with-thumbnail">
-            <!-- Author Avatar & Name -->
-            <img src="/img/avatar.jpg" class="avatar-img" width="44px" height="44px" alt="Yusuf Ma's avatar">
-            <span class="name-span">Yusuf Ma</span>
-        </div>
-
-        <!-- Custom thumbnail -->
-        <div class="post_thumbnail-custom">
-            <img src="images/paris_summary.jpg">
-    
-        </div>
-
-    <!-- Post_entry Content -->
-    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-        <!-- Post Title -->
-        <p class="post_entry-title">
-            <a href="/2017/05/26/Paris-总结/">Paris_总结</a>
-        </p>
-
-        <!-- Post Excerpt -->
-        <p class="post_entry-excerpt">
-            
-                今天的封面是李小姐美美的毕业照，说好听了叫艳压群芳，说白了就是把你们班其他妹子按在地上摩擦。
-今天是巴黎最后一晚了，还是需要进行一些归...
-            
-            &nbsp;&nbsp;&nbsp;
-            <span>
-                <a href="/2017/05/26/Paris-总结/" target="_self">继续阅读</a>
-            </span>
-        </p>
-
-        <!-- Post Tags -->
-        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/tags/巴黎纪行/">巴黎纪行</a></li></ul>
-    </div>
-
-    <!-- Post_entry Footer -->
-    <div class="post_entry-footer">
-        <div class="post_entry-footer-border"></div>
-        <div class="post_entry-footer-info">
-            <div class="post_entry-footer-date">
-                5月 26, 2017
-            </div>
-            <div class="post_entry-footer-comment">
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-        
-        
-    
-        
-        
-        
-            <!-- Isolation Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post_entry Header -->
-    
-        <!-- Post Header Info -->
-        <div class="post_entry-header_info with-thumbnail">
-            <!-- Author Avatar & Name -->
-            <img src="/img/avatar.jpg" class="avatar-img" width="44px" height="44px" alt="Yusuf Ma's avatar">
-            <span class="name-span">Yusuf Ma</span>
-        </div>
-
-        <!-- Custom thumbnail -->
-        <div class="post_thumbnail-custom">
-            <img src="images/paris.jpg">
-    
-        </div>
-
-    <!-- Post_entry Content -->
-    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-        <!-- Post Title -->
-        <p class="post_entry-title">
-            <a href="/2017/05/20/Paris/">Paris</a>
-        </p>
-
-        <!-- Post Excerpt -->
-        <p class="post_entry-excerpt">
-            
-                今天的封面是李小姐美美的毕业照～
-飞了12个小时终于降落，第一次踏足欧洲，我还是有点小激动的。计划了那么久的巴黎，我终于来了。...
-            
-            &nbsp;&nbsp;&nbsp;
-            <span>
-                <a href="/2017/05/20/Paris/" target="_self">继续阅读</a>
-            </span>
-        </p>
-
-        <!-- Post Tags -->
-        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/tags/巴黎纪行/">巴黎纪行</a></li></ul>
-    </div>
-
-    <!-- Post_entry Footer -->
-    <div class="post_entry-footer">
-        <div class="post_entry-footer-border"></div>
-        <div class="post_entry-footer-info">
-            <div class="post_entry-footer-date">
-                5月 20, 2017
-            </div>
-            <div class="post_entry-footer-comment">
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-        
-        
-    
-        
-        
-        
-            <!-- Isolation Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post_entry Header -->
-    
-        <!-- Post Header Info -->
-        <div class="post_entry-header_info with-thumbnail">
-            <!-- Author Avatar & Name -->
-            <img src="/img/avatar.jpg" class="avatar-img" width="44px" height="44px" alt="Yusuf Ma's avatar">
-            <span class="name-span">Yusuf Ma</span>
-        </div>
-
-        <!-- Custom thumbnail -->
-        <div class="post_thumbnail-custom">
-            <img src="images/singapore.jpg">
-    
-        </div>
-
-    <!-- Post_entry Content -->
-    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-        <!-- Post Title -->
-        <p class="post_entry-title">
-            <a href="/2017/04/27/Singapore/">Singapore</a>
-        </p>
-
-        <!-- Post Excerpt -->
-        <p class="post_entry-excerpt">
-            
-                此刻的心情我想不需过多言语
-我想我们都明白
-只想在这里记录一下这个激动人心的时刻
-期待大理
-...
-            
-            &nbsp;&nbsp;&nbsp;
-            <span>
-                <a href="/2017/04/27/Singapore/" target="_self">继续阅读</a>
-            </span>
-        </p>
-
-        <!-- Post Tags -->
-        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/tags/爱你/">爱你</a></li></ul>
-    </div>
-
-    <!-- Post_entry Footer -->
-    <div class="post_entry-footer">
-        <div class="post_entry-footer-border"></div>
-        <div class="post_entry-footer-info">
-            <div class="post_entry-footer-date">
-                4月 27, 2017
-            </div>
-            <div class="post_entry-footer-comment">
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-        
-        
-    
-        
-        
-        
-            <!-- Isolation Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post_entry Header -->
-    
-        <!-- Post Header Info -->
-        <div class="post_entry-header_info with-thumbnail">
-            <!-- Author Avatar & Name -->
-            <img src="/img/avatar.jpg" class="avatar-img" width="44px" height="44px" alt="Yusuf Ma's avatar">
-            <span class="name-span">Yusuf Ma</span>
-        </div>
-
-        <!-- Custom thumbnail -->
-        <div class="post_thumbnail-custom">
-            <img src="images/new1.jpg">
-    
-        </div>
-
-    <!-- Post_entry Content -->
-    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-        <!-- Post Title -->
-        <p class="post_entry-title">
-            <a href="/2017/04/25/我就在这里，不离不弃/">我就在这里，不离不弃</a>
-        </p>
-
-        <!-- Post Excerpt -->
-        <p class="post_entry-excerpt">
-            
-                心疼你，被这个申请折磨的死去活来。
-对于忘了签字这个事情，也是没办法，自己的失误。不过好在对方的态度是极好的，而且确实是给予了我们极大...
-            
-            &nbsp;&nbsp;&nbsp;
-            <span>
-                <a href="/2017/04/25/我就在这里，不离不弃/" target="_self">继续阅读</a>
-            </span>
-        </p>
-
-        <!-- Post Tags -->
-        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/tags/烦心时/">烦心时</a></li></ul>
-    </div>
-
-    <!-- Post_entry Footer -->
-    <div class="post_entry-footer">
-        <div class="post_entry-footer-border"></div>
-        <div class="post_entry-footer-info">
-            <div class="post_entry-footer-date">
-                4月 25, 2017
-            </div>
-            <div class="post_entry-footer-comment">
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-        
-        
-    
-        
-        
-        
-            <!-- Isolation Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post_entry Header -->
-    
-        <!-- Post Header Info -->
-        <div class="post_entry-header_info with-thumbnail">
-            <!-- Author Avatar & Name -->
-            <img src="/img/avatar.jpg" class="avatar-img" width="44px" height="44px" alt="Yusuf Ma's avatar">
-            <span class="name-span">Yusuf Ma</span>
-        </div>
-
-        <!-- Custom thumbnail -->
-        <div class="post_thumbnail-custom">
-            <img src="images/day26.jpg">
-    
-        </div>
-
-    <!-- Post_entry Content -->
-    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-        <!-- Post Title -->
-        <p class="post_entry-title">
-            <a href="/2017/04/19/后记/">后记</a>
-        </p>
-
-        <!-- Post Excerpt -->
-        <p class="post_entry-excerpt">
-            
-                后记于4月19日早晨：
-感谢低素质的上海大妈们给了我一个于今早再一次尝试的机会，Github(就是我需要把这个网站挂上去的服务器)最终...
-            
-            &nbsp;&nbsp;&nbsp;
-            <span>
-                <a href="/2017/04/19/后记/" target="_self">继续阅读</a>
-            </span>
-        </p>
-
-        <!-- Post Tags -->
-        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/tags/给李小姐/">给李小姐</a></li></ul>
-    </div>
-
-    <!-- Post_entry Footer -->
-    <div class="post_entry-footer">
-        <div class="post_entry-footer-border"></div>
-        <div class="post_entry-footer-info">
-            <div class="post_entry-footer-date">
-                4月 19, 2017
-            </div>
-            <div class="post_entry-footer-comment">
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-        
-        
-    
-        
-        
-        
-            <!-- Isolation Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post_entry Header -->
-    
-        <!-- Post Header Info -->
-        <div class="post_entry-header_info with-thumbnail">
-            <!-- Author Avatar & Name -->
-            <img src="/img/avatar.jpg" class="avatar-img" width="44px" height="44px" alt="Yusuf Ma's avatar">
-            <span class="name-span">Yusuf Ma</span>
-        </div>
-
-        <!-- Custom thumbnail -->
-        <div class="post_thumbnail-custom">
-            <img src="images/day24.jpg">
-    
-        </div>
-
-    <!-- Post_entry Content -->
-    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-        <!-- Post Title -->
-        <p class="post_entry-title">
-            <a href="/2017/04/18/第二十四天：生日快乐/">第二十四天：生日快乐</a>
-        </p>
-
-        <!-- Post Excerpt -->
-        <p class="post_entry-excerpt">
-            
-                终于拿出这张可以压箱底的照片了哈哈哈。你当时发给我的时候找我要红包，我还说要打听清楚具体的内容是啥，现在看来，两个红包换了这个照片还是相当值得的，哈...
-            
-            &nbsp;&nbsp;&nbsp;
-            <span>
-                <a href="/2017/04/18/第二十四天：生日快乐/" target="_self">继续阅读</a>
-            </span>
-        </p>
-
-        <!-- Post Tags -->
-        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/tags/给李小姐/">给李小姐</a></li></ul>
-    </div>
-
-    <!-- Post_entry Footer -->
-    <div class="post_entry-footer">
-        <div class="post_entry-footer-border"></div>
-        <div class="post_entry-footer-info">
-            <div class="post_entry-footer-date">
-                4月 18, 2017
-            </div>
-            <div class="post_entry-footer-comment">
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-        
-        
-    
-        
-        
-        
-            <!-- Isolation Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post_entry Header -->
-    
-        <!-- Post Header Info -->
-        <div class="post_entry-header_info with-thumbnail">
-            <!-- Author Avatar & Name -->
-            <img src="/img/avatar.jpg" class="avatar-img" width="44px" height="44px" alt="Yusuf Ma's avatar">
-            <span class="name-span">Yusuf Ma</span>
-        </div>
-
-        <!-- Custom thumbnail -->
-        <div class="post_thumbnail-custom">
-            <img src="images/day23.jpg">
-    
-        </div>
-
-    <!-- Post_entry Content -->
-    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-        <!-- Post Title -->
-        <p class="post_entry-title">
-            <a href="/2017/04/17/第二十三天：冲刺/">第二十三天：冲刺</a>
-        </p>
-
-        <!-- Post Excerpt -->
-        <p class="post_entry-excerpt">
-            
-                今天冲刺了一大波，因为要来找你了。感觉干了好多事情啊！首先来罗列一下今天干了一些啥事情：
-
-跑了三趟学院和行政楼，审批过了三...
-            
-            &nbsp;&nbsp;&nbsp;
-            <span>
-                <a href="/2017/04/17/第二十三天：冲刺/" target="_self">继续阅读</a>
-            </span>
-        </p>
-
-        <!-- Post Tags -->
-        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/tags/给李小姐/">给李小姐</a></li></ul>
-    </div>
-
-    <!-- Post_entry Footer -->
-    <div class="post_entry-footer">
-        <div class="post_entry-footer-border"></div>
-        <div class="post_entry-footer-info">
-            <div class="post_entry-footer-date">
-                4月 17, 2017
-            </div>
-            <div class="post_entry-footer-comment">
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-        
-        
-    
-        
-        
-        
-            <!-- Isolation Thumbnail -->
-            <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post_entry Header -->
-    
-        <!-- Post Header Info -->
-        <div class="post_entry-header_info with-thumbnail">
-            <!-- Author Avatar & Name -->
-            <img src="/img/avatar.jpg" class="avatar-img" width="44px" height="44px" alt="Yusuf Ma's avatar">
-            <span class="name-span">Yusuf Ma</span>
-        </div>
-
-        <!-- Custom thumbnail -->
-        <div class="post_thumbnail-custom">
-            <img src="images/day22.jpg">
-    
-        </div>
-
-    <!-- Post_entry Content -->
-    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-        <!-- Post Title -->
-        <p class="post_entry-title">
-            <a href="/2017/04/16/第二十二天：见李小姐前综合征/">第二十二天：见李小姐前综合征</a>
-        </p>
-
-        <!-- Post Excerpt -->
-        <p class="post_entry-excerpt">
-            
-                今天选这张封面真的是好方便：1. 把相册用力往下一滑，第一眼就看到了这张，于是乎，就是它了！2. 这种你发给我的照片特别方便，都不用再调一遍色，直接...
-            
-            &nbsp;&nbsp;&nbsp;
-            <span>
-                <a href="/2017/04/16/第二十二天：见李小姐前综合征/" target="_self">继续阅读</a>
-            </span>
-        </p>
-
-        <!-- Post Tags -->
-        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/tags/给李小姐/">给李小姐</a></li></ul>
-    </div>
-
-    <!-- Post_entry Footer -->
-    <div class="post_entry-footer">
-        <div class="post_entry-footer-border"></div>
-        <div class="post_entry-footer-info">
-            <div class="post_entry-footer-date">
-                4月 16, 2017
-            </div>
-            <div class="post_entry-footer-comment">
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-        
-        
-    
-
-    
-    <!-- Index nav -->
-        <nav class="material-nav mdl-cell mdl-cell--12-col">
-            <a class="extend prev" rel="prev" href="/page/2/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_back</i></button></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/4/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_forward</i></button></a>
-        </nav>
-    
-
-    
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yusuf Ma</span>
 </div>
 
 
-                    
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
 
-                    
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
 
-                    <!--Footer-->
-<footer class="mdl-mini-footer" id="bottom">
+
+        
+
+        
+      </div>
+    </footer>
+
     
-</footer>
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
 
+  </div>
 
-                    <!-- Import File -->
-<script src="/js/lazyload.min.js"></script>
-<script src="/js/js.min.js"></script>
-<script src="/js/nprogress.js"></script>
+  
 
 <script type="text/javascript">
-    NProgress.configure({
-        showSpinner: true
-    });
-    NProgress.start();
-    $('#nprogress .bar').css({
-        'background': '#29d'
-    });
-    $('#nprogress .peg').css({
-        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
-    });
-    $('#nprogress .spinner-icon').css({
-        'border-top-color': '#29d',
-        'border-left-color': '#29d'
-    });
-    setTimeout(function() {
-        NProgress.done();
-        $('.fade').removeClass('out');
-    }, 800);
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
 </script>
 
 
@@ -964,32 +1707,99 @@
 
 
 
-
-
-    <!-- 使用 DISQUS js 代码 -->
-    <script id="dsq-count-scr" src="//thesiteforrui.disqus.com/count.js" async></script>
+  
 
 
 
-<!-- Swiftye -->
 
 
-<!-- Local Search-->
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 
-<!-- Window Load-->
-<script>
-    $(window).load(function() {
-        // Post_Toc parent position fixed
-        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
-    });
-</script>
-
-<!-- MathJax Load-->
+  
 
 
-                </main>
-            </div>
-        </body>
-    
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
 </html>
