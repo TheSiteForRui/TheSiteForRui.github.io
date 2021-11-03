@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+    <!-- 
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.3.0 -->
+
+    <!-- Title -->
+    
+    <title>
+        
+            爱你，越过大海与山脉 | 
+        
+        致我亲爱的李小姐
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" sizes="192x192" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Meta & Info -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0097A7">
+    <meta name="author" content="Yusuf Ma">
+    <meta name="description" content="">
+    <meta name="keywords" content=",给李小姐">
+
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="480">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="致我亲爱的李小姐">
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://thesiteforrui.github.io">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="爱你，越过大海与山脉 | 致我亲爱的李小姐">
+    <meta property="og:description" content="">
+    <meta property="og:article:tag" content="给李小姐"> 
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import CSS -->
+    
+<link rel="stylesheet" href="/css/material.min.css">
+
+    
+<link rel="stylesheet" href="/css/style.min.css">
+
+    <!-- Config CSS -->
+
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+
+    
+<script src="/js/jquery.min.js"></script>
+
+    
+<script src="/js/queue.js"></script>
+
+
+    <!-- UC Browser Compatible -->
+    <script>
+        var agent = navigator.userAgent.toLowerCase();
+        if(agent.indexOf('ucbrowser')>0) {
+            document.write("
+<link rel=\"stylesheet\" href=\"/css/uc.css\">
+");
+            alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+        }
+    </script>
+
+    
+
+    
+
+    <!-- Bing Background -->
+    
+
+    <!-- Custom Head -->
+    
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+
+    
+        <body id="scheme-Isolation" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+                    <!-- Isolation Header -->
+                    <header class="header">
+    <div class="header-wrapper">
+        <!-- Header Copyright -->
+        <div class="header-copyright">
+            <div class="header-site">
+                ©&nbsp;
+                <script type="text/javascript">
+                    var fd = new Date();
+                    document.write(fd.getFullYear());
+                </script>
+                &nbsp;致我亲爱的李小姐
+            </div>
+            <!--
+            I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+            It will not impact the appearance and can give developers a lot of support :)
+
+            很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+            它不会影响美观并可以给开发者很大的支持。 :)
+            -->
+            <div>
+                Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a>
+                <br>
+                Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a>
+            </div>
+        </div>
+
+        <!-- Header Title -->
+        <span class="header-title header-item">
+            <a href="/" title="致我亲爱的李小姐">
+                致我亲爱的李小姐
+            </a>
+        </span>
+
+        <p class="header-slogan header-item">
+            离你太远 却总想和你生活很近
+        </p>
+
+        <!-- Header Nav -->
+        <nav class="header-nav header-item">
+            <span class="header-nav-item">
+                <a href="/" title="Home">
+                    <span>主页</span>
+                </a>
+            </span>
+
+          <!-- Independent Pages -->
+          
+        </nav>
+
+        <!-- Header SNS -->
+        <div class="header-item header-sns_list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+        </a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+        </a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <i class="fa fa-google-plus fa-lg" aria-hidden="true"></i>
+        </a>
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Telegram -->
+    
+</div>
+
+    </div>
+</header>
+
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+
+                    <!-- Post TOC -->
+
+    
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+
+
+    <!-- Isolation Post Header -->
+    <!-- Post thumbnail -->
+    
+        <!-- Post Header Info -->
+        <div class="post-header_info with-thumbnail">
+            <!-- Author Avatar & Name -->
+            <img src="/img/avatar.jpg" class="avatar-img" width="44px" height="44px" alt="Yusuf Ma's avatar">
+            <span class="name-span">Yusuf Ma</span>
+        </div>
+
+        <!-- Custom thumbnail -->
+        <div class="post_thumbnail-custom">
+            <img src="images/nyc_4.jpg">
+    
+        </div>
+
+
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+
+    
+        <div class="post-content_wrapper">
+            <p class="post-title">
+                爱你，越过大海与山脉
+            </p>
+            <p>从纽约JFK机场起飞，直冲多哈，一鼓作气跨过格林尼治时间，我的这一天似乎只过了十来个小时。突如其来，就是2月14号了。</p>
+<p>现在在从多哈飞往新加坡的航班上，写下这篇文章，那自然是要祝李小姐，也祝我自己，情人节快乐。这个是一个只有和你在一起，才能过的节日。还算好，我赶上了新加坡情人节的尾巴，终于要回到你身边了。</p>
+<p>我的自我意识觉醒，大概是开始在初一的时候吧。那时候的我因为小学时候的一些不好的事情，变得非常胆小。每每回想起来，似乎都还记得就连举手回答问题，都能紧张到心脏狂跳浑身发麻的程度。</p>
+<p>为什么我那么多年来，一直把蒲潇阳当做发自内心的挚友，多半就是因为现在的我，有很大一部分，是那时的他创造出来的吧。我的开朗，外向，勇气，一部分就是在那个时候觉醒的。</p>
+<p>后来啊，我碰到了你。从初二都现在，兜兜转转，分分合合，我其实真的伤害了你不少，但也才逐渐学会和懂得什么是对我自己最重要的。很对不起你，但是我的爱，真的不是因为对不起。</p>
+<p>我似乎是高中时候就意识到，自己真的只是个普通人。应该说是，生而为人，最终都是落在这个人字之上。</p>
+<p>我从前很嗤之以鼻，为什么会有那么多的爱可以写，那么多的情可以唱。可是呀，生而为人，本就是这样的，这是刻在骨子里的主旋律，是人类，在文明伊始之前就存在的永恒的赞歌。</p>
+<p>我就是最普通的人类，而你就是我心内的那首歌。</p>
+<p>我无法知道你的心情，这是一个latent variable。只能通过observations来做inference。根据目前的状况来看，你的latent variable的posterior distribution，或许和我是一个差不多的分布吧，哈哈。</p>
+<p>天地很大，但是不和你在一起，我很难快乐起来。</p>
+<p>我回来了，我想你了。</p>
+<p>我爱你啊。</p>
+<p>Yusuf</p>
+<p>2020年2月14日于印度洋上空</p>
+
+        </div>
+    
+</div>
+
+
+                
+                    <!-- Paradox Post Info -->
+                    
+                
+
+                <!-- Post Comments -->
+                
+                    
+
+
+    <!-- 使用 DISQUS -->
+    <div id="disqus-comment">
+        <div id="disqus_thread"></div>
+<script>
+    queue.offer(function() {
+            var disqus_config = function () {
+                this.page.url = 'http://thesiteforrui.github.io/2020/02/15/%E7%88%B1%E4%BD%A0%EF%BC%8C%E8%B6%8A%E8%BF%87%E5%A4%A7%E6%B5%B7%E4%B8%8E%E5%B1%B1%E8%84%89/index.html';  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//thesiteforrui.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+    </div>
+    <style>
+        #disqus-comment{
+            background-color: #eee;
+            padding: 2pc;
+        }
+    </style>
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2020/04/19/2020生日快乐/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2020/02/12/再见了纽约/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+</footer>
+
+
+                    <!-- Import File -->
+
+<script src="/js/lazyload.min.js"></script>
+
+
+<script src="/js/js.min.js"></script>
+
+
+<script src="/js/nprogress.js"></script>
+
+
+<script type="text/javascript">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 使用 DISQUS js 代码 -->
+    <script id="dsq-count-scr" src="//thesiteforrui.disqus.com/count.js" async></script>
+
+
+
+<!-- Swiftye -->
+
+
+<!-- Local Search-->
+
+
+<!-- Window Load-->
+<script>
+    $(window).load(function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+</script>
+
+<!-- MathJax Load-->
+
+
+                </main>
+            </div>
+        </body>
+    
+</html>
