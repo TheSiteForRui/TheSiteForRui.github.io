@@ -1,4 +1,4 @@
-:HL["./_next/static/chunks/7b560192508653fd.css","style"]
+:HL["/_next/static/chunks/7b560192508653fd.css","style"]
 :HL["/images/avatar.jpg","image"]
 :HL["/images/korea.png","image"]
 :HL["/images/nz_3.jpg","image"]
@@ -64,4 +64,4 @@
 :HL["/images/day3.jpg","image"]
 :HL["/images/day2.jpg","image"]
 :HL["/images/IMGP0312.JPG","image"]
-0:{"buildId":"HBsHPhMLM38gfH5VyhDol","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"archives","paramType":null,"paramKey":"archives","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"BJcYezYRDk50ZFXOfTF-O","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"archives","paramType":null,"paramKey":"archives","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

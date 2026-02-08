@@ -1,5 +1,5 @@
-:HL["./_next/static/chunks/7b560192508653fd.css","style"]
+:HL["/_next/static/chunks/7b560192508653fd.css","style"]
 :HL["/images/avatar.jpg","image"]
 :HL["/images/day3.jpg","image"]
 :HL["/images/jianfei.png","image"]
-0:{"buildId":"HBsHPhMLM38gfH5VyhDol","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"posts","paramType":null,"paramKey":"posts","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"%E7%AC%AC%E4%B8%89%E5%A4%A9-%E5%9C%A8%E4%B9%8B%E4%B8%80%E6%A1%A5%E7%BB%99%E4%BD%A0%E6%89%93%E7%94%B5%E8%AF%9D","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"BJcYezYRDk50ZFXOfTF-O","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"posts","paramType":null,"paramKey":"posts","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"%E7%AC%AC%E4%B8%89%E5%A4%A9-%E5%9C%A8%E4%B9%8B%E4%B8%80%E6%A1%A5%E7%BB%99%E4%BD%A0%E6%89%93%E7%94%B5%E8%AF%9D","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
