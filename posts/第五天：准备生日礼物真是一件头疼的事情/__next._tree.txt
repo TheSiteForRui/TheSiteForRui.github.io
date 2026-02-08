@@ -1,0 +1,5 @@
+:HL["./_next/static/chunks/7b560192508653fd.css","style"]
+:HL["/images/avatar.jpg","image"]
+:HL["/images/day5.jpg","image"]
+:HL["/images/palais-des-congres-de.jpg","image"]
+0:{"buildId":"HBsHPhMLM38gfH5VyhDol","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"posts","paramType":null,"paramKey":"posts","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"%E7%AC%AC%E4%BA%94%E5%A4%A9%EF%BC%9A%E5%87%86%E5%A4%87%E7%94%9F%E6%97%A5%E7%A4%BC%E7%89%A9%E7%9C%9F%E6%98%AF%E4%B8%80%E4%BB%B6%E5%A4%B4%E7%96%BC%E7%9A%84%E4%BA%8B%E6%83%85","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
