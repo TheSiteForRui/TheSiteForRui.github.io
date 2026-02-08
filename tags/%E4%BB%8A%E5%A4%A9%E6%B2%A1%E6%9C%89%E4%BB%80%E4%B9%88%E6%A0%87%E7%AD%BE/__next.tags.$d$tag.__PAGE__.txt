@@ -1,5 +1,0 @@
-1:"$Sreact.fragment"
-2:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-3:"$Sreact.suspense"
-0:{"buildId":"vxLX1omgcLVFXnbQNc6zG","rsc":["$","$1","c",{"children":[["$","div",null,{"children":[["$","h1",null,{"className":"page-title","children":["标签: ","%E4%BB%8A%E5%A4%A9%E6%B2%A1%E6%9C%89%E4%BB%80%E4%B9%88%E6%A0%87%E7%AD%BE"]}],[]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
-4:null
